@@ -1,0 +1,9 @@
+.navibar {
+    background-color: gray;
+    text-align-last:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
+    margin-right: 15px;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
