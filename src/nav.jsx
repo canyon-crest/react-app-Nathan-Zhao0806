@@ -4,7 +4,7 @@ function Nav(){
         <div className='navibar'>
             <ul>
                 <li>Home</li>
-                <li>About</li>
+                <li href='./main2.jsxs'>About</li>
                 <li>Contact</li>
             </ul>
         </div>

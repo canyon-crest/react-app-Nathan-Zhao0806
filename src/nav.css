@@ -1,9 +1,12 @@
-.navibar {
-    background-color: gray;
-    text-align-last:center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display:flex;
-    margin-right: 15px;
-    flex-direction: column;
-    flex-wrap: wrap-reverse;
+ul {
+    list-style: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow:hidden;
+    background-color: bisque;}
+li {display: inline-flex;
+color: black;
+box-align: center;
+padding-left: 5rem;
+padding-right: 5rem;
 }
