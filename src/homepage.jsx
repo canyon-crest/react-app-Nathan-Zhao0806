@@ -13,7 +13,6 @@ function Home() {
         <Card name="grapes" description="This is grapes!"/>
         <App />
         <Comment />
-
         </>
     );
 }
