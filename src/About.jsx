@@ -10,7 +10,6 @@ function About(){
     <Nav />
     <p>This is my page, I am Nathan Z</p>
     <Card  name="Myself!" description="Add me into your cart!"/>
-
     </>
     );
 }

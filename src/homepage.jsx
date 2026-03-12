@@ -6,7 +6,6 @@ import Card from "./Card";
 function Home() {
     return(
         <>
-        <Nav /> 
         <Card name="Apples" description="This is apple!"/>
         <Card name="Banana" description="BANANANANANA!"/>
         <Card name="grapes" description="This is grapes!"/>

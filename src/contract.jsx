@@ -7,9 +7,8 @@ const gmaillink = (
 function Contract (){
     return(
         <>
-        <Nav />
         <p>My email is nathanz0806@gmail.com !!!!!!</p>
-        <p>Click <Here>here</Here> to send me an email</p>
+        <p>Click <gmaillink>heres</gmaillink> to send me an email</p>
         </>
     );
 }
