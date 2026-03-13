@@ -6,8 +6,8 @@ function Nav({setPage}){
         <div className='navibar'>
             <ul>
                 <li onClick={() => setPage("main")}>Home</li>
-                <li onClick={() => setPage("About")}>About</li>
-                <li onClick={() => setPage("contract")}>Contact</li>
+                <li onClick={() => setPage("about")}>About</li>
+                <li onClick={() => setPage("contact")}>Contact</li>
             </ul>
         </div>
     )

@@ -10,6 +10,8 @@ function Home() {
         <Card name="Banana" description="BANANANANANA!"/>
         <Card name="grapes" description="This is grapes!"/>
         <App />
+        <footer><p>
+        &copy; 2026 Nathan website</p></footer>
         </>
     );
 }
