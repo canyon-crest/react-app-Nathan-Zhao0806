@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Nav from './nav'
 import About from './About'
-function App() {
+function App3() {
   const [count, setCount] = useState(0)
 
   return (
@@ -33,9 +33,8 @@ function App() {
   )
 }
 
-export default App
+export default App3
 // Import React hooks and Firebase functionality
-import { useEffect, useState } from 'react';
 import { db, auth, provider } from './firebase'; // Custom Firebase config
 import { signInWithPopup, signOut, onAuthStateChanged } from 'firebase/auth'; // Auth methods
 import { collection, getDocs } from 'firebase/firestore'; // Firestore methods
