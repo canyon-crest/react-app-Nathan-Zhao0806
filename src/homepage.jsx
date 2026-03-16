@@ -2,6 +2,7 @@ import Nav from "./nav";
 import './index.css';
 import App3 from './App.jsx';
 import Card from "./Card";
+import Comment from "./comment.jsx";
 
 function Home() {
     return(
@@ -10,6 +11,7 @@ function Home() {
         <Card name="Banana" description="BANANANANANA!"/>
         <Card name="grapes" description="This is grapes!"/>
         <App3 />
+        <Comment />
         <footer><p>
         &copy; 2026 Nathan website</p></footer>
         </>

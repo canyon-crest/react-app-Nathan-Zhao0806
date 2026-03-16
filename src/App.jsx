@@ -6,6 +6,7 @@ import Nav from './nav'
 import About from './About'
 function App3() {
   const [count, setCount] = useState(0)
+  const [a, setA] = useState(1)
 
   return (
     <>
@@ -19,11 +20,23 @@ function App3() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        <button onClick={() =>  setA((a) => 1)}{... setCount((count) => count + a)}>
+        normal Click
+        </button>
+        <button onClick={() =>  setA((a) => 10)}{... setCount((count) => count + a)}>
+        strong Click
+        </button>
+        <button onClick={() =>  setA((a) => 100)}{... setCount((count) => count + a)}>
+        AAAAAA Click
+        </button>
+        <button onClick={() =>  setA((a) => 1)}{... setCount((count) => count * a)}>
+        insane clicking
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          count is {count}
+        </p>
+        <p>
+          Edit <code>src/App.jsx</code> and save to test HM
         </p>
       </div>
       <p className="read-the-docs">

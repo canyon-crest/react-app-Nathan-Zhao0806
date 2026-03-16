@@ -12,7 +12,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+footer{
+  font-style: italic;
+  color: #747bff;
+  background-color: aquamarine;
+}
 a {
   font-weight: 500;
   color: #646cff;
