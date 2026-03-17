@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Nav from './nav'
 import About from './About'
+
 function App() {
   const [count, setCount] = useState(0)
   const [a, setA] = useState(1)
@@ -20,17 +21,19 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() =>  setA((a) => 1)}{... setCount((count) => count + a)}>
-        normal Click
+        {/* Corrected: use a single arrow function to call both functions sequentially */}
+        <button onClick={() => { setA(1); setCount((count) => count + a); }}>
+          normal Click
         </button>
-        <button onClick={() =>  setA((a) => 10)}{... setCount((count) => count + a)}>
-        strong Click
+        <button onClick={() => { setA(10); setCount((count) => count + a); }}>
+          strong Click
         </button>
-        <button onClick={() =>  setA((a) => 100)}{... setCount((count) => count + a)}>
-        AAAAAA Click
+        <button onClick={() => { setA(100); setCount((count) => count + a); }}>
+          AAAAAA Click
         </button>
-        <button onClick={() =>  setA((a) => 1)}{... setCount((count) => count * a)}>
-        insane clicking
+        {/* Corrected: use a single arrow function to call both functions sequentially */}
+        <button onClick={() => { setA(10); setCount((count) => count * a); }}>
+          insane clicking
         </button>
         <p>
           count is {count}
