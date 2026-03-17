@@ -12,14 +12,12 @@ const fetchDogImage = async () => {
       console.error('Error fetching dog image:', error);
     }
   };
-  
 function About(){
     return (
     <>
     <p>This is my page, I am Nathan Z</p>
     <Card  name="Myself!" description="Add me into your cart!"/>
     <button onClick={fetchDogImage}>Fetch Dog Image</button>
-    {apiData && <img src={apiData} alt="Random Dog" />}
 
     <footer><p>
         &copy; 2026 Nathan website</p></footer>
