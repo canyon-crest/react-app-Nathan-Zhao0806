@@ -11,15 +11,9 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank" className='rotate'>
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank" className='rotate'>
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
+      <p>
+        This is my basic thing in this website, you can click buttn to add count, there are different kinds of clicking you can choose
+      </p>
       <div className="card">
         {/* Corrected: use a single arrow function to call both functions sequentially */}
         <button onClick={() => { setA(1); setCount((count) => count + a); }}>
@@ -28,7 +22,7 @@ function App() {
         <button onClick={() => { setA(10); setCount((count) => count + a); }}>
           strong Click
         </button>
-        <button onClick={() => { setA(100); setCount((count) => count + a); }}>
+        <button onClick={() => { setA(10000); setCount((count) => count + a); }}>
           AAAAAA Click
         </button>
         {/* Corrected: use a single arrow function to call both functions sequentially */}
@@ -43,7 +37,6 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
       </p>
     </>
   )
