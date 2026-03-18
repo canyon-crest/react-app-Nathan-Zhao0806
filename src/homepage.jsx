@@ -33,6 +33,7 @@ function Home() {
       <Card name="Banana" description="BANANANANANA!" />
       <Card name="Grapes" description="This is grapes!" />
       <App />
+      <p>I create this website, I don't know wat to add here so I just drop some apples and bananas.</p>
       <button onClick={fetchadvice}>Want advice?</button>
       {apiData && <p>{apiData}</p>}
       <footer>
